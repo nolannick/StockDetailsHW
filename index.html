@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Stock Symbol Prices</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Stock Search</h1>
+  </br>
+    <h4>Previously viewed stocks:</h4>
+    <div id="stockButtons"></div>
+
+    <form id="stock-form">
+      <div class="form-group">
+        <label for="stock-input">Enter a stock symbol below to view stock details</label>
+        <input type="text" id="stock-input" class="form-control"><br>
+      </div>
+
+      <!-- This button will trigger our AJAX call -->
+      <input id="find-stock" type="submit" value="Stock Search">
+    </form>
+
+
+
+    <div id="stock-view">
+      <h2>Stock Info:</h2>
+      <div id="resultsSection"></div>
+    </div>
+    <!-- This form will be where users input data about the stocks -->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="app.js"></script>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+.btn-primary {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+ 
+ form,
+ #stock-view {
+    border: solid 1px #888888;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+    box-sizing: border-box;
+ }
+ #stock-view {
+    background-image: linear-gradient(to right, #fff , #eee);
+ }
+ 
+ .card {
+    box-shadow: 10px 4px #bbbbbb;
+    border-radius: 5px;
+    margin-bottom: 11px;
+ }
